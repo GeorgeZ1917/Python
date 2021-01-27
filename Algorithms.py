@@ -5,7 +5,7 @@ from random import randint
 from copy import copy
 from math import inf
 
-length = 10 ** 7
+length = 10 ** 6
 bubbleSort = [ randint ( 0, length ) for data in range ( 0, length ) ]
 insertionSort = bubbleSort.copy()
 selectionSort = bubbleSort.copy()
